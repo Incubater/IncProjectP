@@ -5,62 +5,33 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--IncP Main Tabbar-->
+        <!--Tab Bar Controller-->
         <scene sceneID="Zan-yL-xDn">
             <objects>
-                <tabBarController id="Hv9-VS-vEA" customClass="IncPMainTabbar" customModule="IncProjectP" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="Hv9-VS-vEA" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="uX0-xS-bHm"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Fiu-X6-hbG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="xYU-K2-hO6" kind="relationship" relationship="viewControllers" id="lYw-go-h7k"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAu-CN-Dpi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328" y="-390"/>
+            <point key="canvasLocation" x="378" y="208"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="nLH-Ln-TuW">
             <objects>
                 <navigationController id="xYU-K2-hO6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="IQButtonBarArrowLeft.png" id="Msi-1s-8pa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ExR-4C-ViH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="uWt-a5-QDI" kind="relationship" relationship="rootViewController" id="o2g-tm-cE2"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6VJ-De-2ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1098" y="-652"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="10M-6K-mLr">
-            <objects>
-                <viewController id="uWt-a5-QDI" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0oW-R7-45p"/>
-                        <viewControllerLayoutGuide type="bottom" id="QA3-4W-rWE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FS8-zz-aGF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="dvz-5a-Tmh"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Yz-K2-Xfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1814" y="-646"/>
+            <point key="canvasLocation" x="1150" y="-323"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="IQButtonBarArrowLeft.png" width="12" height="21"/>
-    </resources>
 </document>
