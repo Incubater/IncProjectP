@@ -17,9 +17,9 @@
 		BC058BB01D5C760000379A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC058BAF1D5C760000379A5C /* LaunchScreen.storyboard */; };
 		BC058BB41D5C77FD00379A5C /* IncPLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BB31D5C77FD00379A5C /* IncPLoadingController.swift */; };
 		BC058BB61D5C782800379A5C /* IncPBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BB51D5C782800379A5C /* IncPBaseController.swift */; };
-		BC058BB81D5C7D0100379A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC058BB71D5C7D0100379A5C /* LaunchScreen.storyboard */; };
 		BC058BBC1D5C7D7800379A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC058BBB1D5C7D7800379A5C /* Main.storyboard */; };
 		BC058BBE1D5C7F5E00379A5C /* IncPMainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */; };
+		BCEF94071D62AB3800EF44BF /* IncPLoading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,9 +207,9 @@
 		BC058BAF1D5C760000379A5C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC058BB31D5C77FD00379A5C /* IncPLoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPLoadingController.swift; path = Classes/Controller/View/IncPLoadingController.swift; sourceTree = "<group>"; };
 		BC058BB51D5C782800379A5C /* IncPBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPBaseController.swift; path = Classes/Controller/View/IncPBaseController.swift; sourceTree = "<group>"; };
-		BC058BB71D5C7D0100379A5C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC058BBB1D5C7D7800379A5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPMainTabbar.swift; path = Classes/Controller/Tabbar/IncPMainTabbar.swift; sourceTree = "<group>"; };
+		BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IncPLoading.storyboard; path = Storyboards/View/IncPLoading.storyboard; sourceTree = "<group>"; };
 		FD861B163A5409069E6B1BD6 /* Pods-IncProjectP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IncProjectP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IncProjectP/Pods-IncProjectP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -332,8 +332,8 @@
 		BC058BA71D5C6F0300379A5C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BC058BB71D5C7D0100379A5C /* LaunchScreen.storyboard */,
 				BC058BBB1D5C7D7800379A5C /* Main.storyboard */,
+				BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -623,7 +623,7 @@
 				BC058A8F1D5C18F000379A5C /* Assets.xcassets in Resources */,
 				BC058BBC1D5C7D7800379A5C /* Main.storyboard in Resources */,
 				BC058BB01D5C760000379A5C /* LaunchScreen.storyboard in Resources */,
-				BC058BB81D5C7D0100379A5C /* LaunchScreen.storyboard in Resources */,
+				BCEF94071D62AB3800EF44BF /* IncPLoading.storyboard in Resources */,
 				BC058BAE1D5C752C00379A5C /* IMG_1205.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

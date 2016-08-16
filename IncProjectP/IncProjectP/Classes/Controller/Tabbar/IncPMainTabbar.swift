@@ -18,7 +18,7 @@ class IncPMainTabbar: JKBaseTabbarController {
         
         //SwiftEventBus.onMainThread(self, name: "Logout") { result in
         //    self.selectedIndex = 0;
-        }
+        //}
     }
 
 }

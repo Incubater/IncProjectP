@@ -13,7 +13,9 @@ class IncPLoadingController: IncPBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        CheckUpdate()
+        JKLog.e("qwer")
+        JKThread().Start({NSThread.sleepForTimeInterval(1.0)},onMain: {self.GoMain()})
         // Do any additional setup after loading the view.
     }
 
@@ -23,14 +25,14 @@ class IncPLoadingController: IncPBaseController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private func CheckUpdate()
+    {
+        
     }
-    */
 
+    private func GoMain()
+    {
+        StartStoryBoard("Main",mtsAnimation:UIModalTransitionStyle.CrossDissolve)
+    }
+    
 }
