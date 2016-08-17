@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CVCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -107,22 +112,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FE1ECAF1BCCFC67BA55FDDF1F144F80</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1520003FEBEC114D6C84F832AFEDB994</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2170FF4268544A2E8544A34E10B44FD2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>263441FE322500D1DD3F5E6511399CDE</key>
+		<key>228DD4E85D433E3C675EB5C5A252968C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,17 +132,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3BD24D22219B37BD5F9E3025FF23FBE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>55ABC5300F5EF855C57F9B23657FB8F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E1211B7050F707CFEDCD52837D19797</key>
+		<key>656DCE1255A8F45A845E2D2D277A5EBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>769AB3FA1978C39E6CE7C37D5811942F</key>
+		<key>68F9F56718C53C211EC718410CBA76C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6A52A53D0B7E3D072118F314C0C0BB53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -162,12 +167,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94C1C7213D83EB590326C97D521EDF32</key>
+		<key>ADD00E480F7E61990D679422A181B710</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BCC4E82978714C9340ECB1746760F5C</key>
+		<key>B2577A92CE17774518B064919AB13FAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA14B622689766F6B8A4F42FD9DE552F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -177,7 +187,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5A17B0ABD3B50664735597216553E13</key>
+		<key>D02F140A9827C4A7DA29157E14F4D9D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -197,12 +207,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8DBBC6BB5AD1EBD4E9C618B36F18963</key>
+		<key>F532B66BCDA6B3E1FA7501F6F40E0AE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA04EE93FA9FA5D7D7897914D7A5D9B9</key>
+		<key>F8DBBC6BB5AD1EBD4E9C618B36F18963</key>
 		<dict>
 			<key>primary</key>
 			<true/>

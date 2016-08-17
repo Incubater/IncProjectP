@@ -23,6 +23,7 @@ pod 'SDWebImage', '~>3.8'
 pod 'UITextView+Placeholder', '~> 1.2'
 pod 'FDFullscreenPopGesture', '1.1'
 pod 'PullToRefresher', '~> 1.3.0'
+pod 'CVCalendar', '~> 1.2.9'
 end
 
 target 'IncProjectP' do

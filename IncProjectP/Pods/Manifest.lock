@@ -9,6 +9,7 @@ PODS:
   - CocoaLumberjack/Swift (2.3.0):
     - CocoaLumberjack/Extensions
   - CryptoSwift (0.5.2)
+  - CVCalendar (1.2.9)
   - Device (1.0.1)
   - EVReflection (2.43.0)
   - FDFullscreenPopGesture (1.1)
@@ -32,6 +33,7 @@ DEPENDENCIES:
   - AsyncSwift
   - CocoaLumberjack/Swift
   - CryptoSwift
+  - CVCalendar (~> 1.2.9)
   - Device (~> 1.0.1)
   - EVReflection (~> 2.6)
   - FDFullscreenPopGesture (= 1.1)
@@ -67,6 +69,7 @@ SPEC CHECKSUMS:
   AsyncSwift: f3ad5dd077bbd1477e7573e87071a532fedaca1a
   CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
   CryptoSwift: c1ef79f901b86099a6fe8b3c7524cf9f3f3c8c40
+  CVCalendar: 0799256e0bc3b43e83b7e86c0729ce9ff0624cb6
   Device: 7ed5b87db148886e8c3cbcdde5dc997baddbe10b
   EVReflection: a65a68abd7f9eff2d8b1cea7d6c684dd3254f58f
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -83,6 +86,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
 
-PODFILE CHECKSUM: 5a4e3dec29f235ad0c691903d56455c453dab3f4
+PODFILE CHECKSUM: da9c6a4e74caf37ec05f145dc4a39f49dc8d2597
 
 COCOAPODS: 1.0.1

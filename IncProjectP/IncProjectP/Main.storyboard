@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--IncP Main Tabbar-->
         <scene sceneID="Zan-yL-xDn">
             <objects>
-                <tabBarController id="Hv9-VS-vEA" sceneMemberID="viewController">
+                <tabBarController id="Hv9-VS-vEA" customClass="IncPMainTabbar" customModule="IncProjectP" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="uX0-xS-bHm"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Fiu-X6-hbG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -46,7 +46,7 @@
         <!--test1-->
         <scene sceneID="3VT-qu-wyN">
             <objects>
-                <viewController id="r1A-Je-lG7" sceneMemberID="viewController">
+                <viewController id="r1A-Je-lG7" customClass="IncPMainViewController" customModule="IncProjectP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9dq-2t-n29"/>
                         <viewControllerLayoutGuide type="bottom" id="hNa-7m-zC0"/>
@@ -54,10 +54,24 @@
                     <view key="view" contentMode="scaleToFill" id="Onc-Ph-A4P">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1x-Hq-kxO" customClass="CVCalendarMenuView" customModule="CVCalendar">
+                                <rect key="frame" x="0.0" y="64" width="414" height="73"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1W-CL-0uc" customClass="CVCalendarView" customModule="CVCalendar">
+                                <rect key="frame" x="0.0" y="202" width="414" height="213"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="test1" id="6jP-B9-ctv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="menuView" destination="D1x-Hq-kxO" id="LDH-Aa-U7i"/>
+                        <outlet property="test2" destination="E1W-CL-0uc" id="gJ9-DG-8j7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RM-ER-eFG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

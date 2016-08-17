@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--IncP Base Controller-->
+        <!--IncP Loading Controller-->
         <scene sceneID="JzL-QD-3FG">
             <objects>
-                <viewController id="t1X-gm-0N7" customClass="IncPBaseController" customModule="IncProjectP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t1X-gm-0N7" customClass="IncPLoadingController" customModule="IncProjectP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xyW-ha-EU3"/>
                         <viewControllerLayoutGuide type="bottom" id="oIo-7d-5oQ"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IQButtonBarArrowLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="njZ-vd-pSq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1205.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="njZ-vd-pSq">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                         </subviews>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IQButtonBarArrowLeft.png" width="12" height="21"/>
+        <image name="IMG_1205.jpg" width="750" height="1335"/>
     </resources>
 </document>
