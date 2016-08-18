@@ -8,14 +8,12 @@
 
 import Foundation
 import JKFramework
-//import CVCalendar
-
-@IBOutlet weak var menuView: CVCalendarMenuView!
-@IBOutlet weak var test2: CVCalendarView!
+import CVCalendar
 
 class IncPMainViewController: IncPBaseController {
     
 
+    @IBOutlet weak var test1: CVCalendarMenuView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
