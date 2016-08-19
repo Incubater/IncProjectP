@@ -17,6 +17,7 @@ PODS:
   - JLToast (1.4.2)
   - MBProgressHUD (1.0.0)
   - PathKit (0.6.0)
+  - pop (1.0.9)
   - PullToRefresher (1.3.1)
   - ReachabilitySwift (2.3.3)
   - SDWebImage (3.8.1):
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - JLToast (~> 1.4)
   - MBProgressHUD (~> 1.0.0)
   - PathKit
+  - pop (~> 1.0)
   - PullToRefresher (~> 1.3.0)
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
   - SDWebImage (~> 3.8)
@@ -77,6 +79,7 @@ SPEC CHECKSUMS:
   JLToast: bf63282a7df069557e80c77dbd2c6b9f9fc4de72
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   PathKit: b224b6d2c4e75b87f08f45e1c0c610a3195c94e5
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   PullToRefresher: e17cc032b48148824a77fbf4bce5beb81933071a
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
@@ -86,6 +89,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
 
-PODFILE CHECKSUM: da9c6a4e74caf37ec05f145dc4a39f49dc8d2597
+PODFILE CHECKSUM: e7c2d773ff4740556c039dab8015c698fffbb2a2
 
 COCOAPODS: 1.0.1

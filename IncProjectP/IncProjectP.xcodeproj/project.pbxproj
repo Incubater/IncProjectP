@@ -251,6 +251,7 @@
 		BC058A861D5C18F000379A5C /* IncProjectP */ = {
 			isa = PBXGroup;
 			children = (
+				BCFC54981D66ED620004E60F /* Support */,
 				BC058BA51D5C6D8D00379A5C /* Images */,
 				BC058BA41D5C6D8200379A5C /* Storyboards */,
 				BC058BA31D5C6D7A00379A5C /* Classes */,
@@ -380,6 +381,13 @@
 			children = (
 			);
 			name = Navagation;
+			sourceTree = "<group>";
+		};
+		BCFC54981D66ED620004E60F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 		E3DCFB2A4F7D185AB9916FA2 /* Pods */ = {
@@ -804,6 +812,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lmy.IncProjectP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -821,6 +830,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lmy.IncProjectP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
