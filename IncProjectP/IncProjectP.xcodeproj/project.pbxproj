@@ -20,6 +20,7 @@
 		BC058BBC1D5C7D7800379A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC058BBB1D5C7D7800379A5C /* Main.storyboard */; };
 		BC058BBE1D5C7F5E00379A5C /* IncPMainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */; };
 		BC2187DA1D64143600CA57D8 /* IncPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2187D91D64143600CA57D8 /* IncPMainViewController.swift */; };
+		BC66DC861D6AE37E0004A1FF /* IncPCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66DC851D6AE37E0004A1FF /* IncPCalendarController.swift */; };
 		BCEF94071D62AB3800EF44BF /* IncPLoading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +212,7 @@
 		BC058BBB1D5C7D7800379A5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPMainTabbar.swift; path = Classes/Controller/Tabbar/IncPMainTabbar.swift; sourceTree = "<group>"; };
 		BC2187D91D64143600CA57D8 /* IncPMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPMainViewController.swift; path = Classes/Controller/View/IncPMainViewController.swift; sourceTree = "<group>"; };
+		BC66DC851D6AE37E0004A1FF /* IncPCalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPCalendarController.swift; path = Classes/Controller/View/IncPCalendarController.swift; sourceTree = "<group>"; };
 		BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IncPLoading.storyboard; path = Storyboards/View/IncPLoading.storyboard; sourceTree = "<group>"; };
 		FD861B163A5409069E6B1BD6 /* Pods-IncProjectP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IncProjectP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IncProjectP/Pods-IncProjectP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -347,6 +349,7 @@
 				BC058BB51D5C782800379A5C /* IncPBaseController.swift */,
 				BC058BB31D5C77FD00379A5C /* IncPLoadingController.swift */,
 				BC2187D91D64143600CA57D8 /* IncPMainViewController.swift */,
+				BC66DC851D6AE37E0004A1FF /* IncPCalendarController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				BC058BB61D5C782800379A5C /* IncPBaseController.swift in Sources */,
 				BC2187DA1D64143600CA57D8 /* IncPMainViewController.swift in Sources */,
 				BC058A8A1D5C18F000379A5C /* ViewController.swift in Sources */,
+				BC66DC861D6AE37E0004A1FF /* IncPCalendarController.swift in Sources */,
 				BC058A881D5C18F000379A5C /* AppDelegate.swift in Sources */,
 				BC058BBE1D5C7F5E00379A5C /* IncPMainTabbar.swift in Sources */,
 				BC058BB41D5C77FD00379A5C /* IncPLoadingController.swift in Sources */,
