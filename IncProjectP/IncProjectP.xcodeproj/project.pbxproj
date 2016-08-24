@@ -19,6 +19,8 @@
 		BC058BB61D5C782800379A5C /* IncPBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BB51D5C782800379A5C /* IncPBaseController.swift */; };
 		BC058BBC1D5C7D7800379A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC058BBB1D5C7D7800379A5C /* Main.storyboard */; };
 		BC058BBE1D5C7F5E00379A5C /* IncPMainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */; };
+		BC06A12F1D6D8396003FC42C /* IncPCalEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC06A12E1D6D8396003FC42C /* IncPCalEventData.swift */; };
+		BC06A1311D6D9879003FC42C /* IncPEventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC06A1301D6D9879003FC42C /* IncPEventCategory.swift */; };
 		BC2187DA1D64143600CA57D8 /* IncPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2187D91D64143600CA57D8 /* IncPMainViewController.swift */; };
 		BC66DC861D6AE37E0004A1FF /* IncPCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66DC851D6AE37E0004A1FF /* IncPCalendarController.swift */; };
 		BCEF94071D62AB3800EF44BF /* IncPLoading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */; };
@@ -211,6 +213,8 @@
 		BC058BB51D5C782800379A5C /* IncPBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPBaseController.swift; path = Classes/Controller/View/IncPBaseController.swift; sourceTree = "<group>"; };
 		BC058BBB1D5C7D7800379A5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BC058BBD1D5C7F5E00379A5C /* IncPMainTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPMainTabbar.swift; path = Classes/Controller/Tabbar/IncPMainTabbar.swift; sourceTree = "<group>"; };
+		BC06A12E1D6D8396003FC42C /* IncPCalEventData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPCalEventData.swift; path = Classes/Bean/Data/IncPCalEventData.swift; sourceTree = "<group>"; };
+		BC06A1301D6D9879003FC42C /* IncPEventCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPEventCategory.swift; path = Classes/Bean/Data/IncPEventCategory.swift; sourceTree = "<group>"; };
 		BC2187D91D64143600CA57D8 /* IncPMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPMainViewController.swift; path = Classes/Controller/View/IncPMainViewController.swift; sourceTree = "<group>"; };
 		BC66DC851D6AE37E0004A1FF /* IncPCalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncPCalendarController.swift; path = Classes/Controller/View/IncPCalendarController.swift; sourceTree = "<group>"; };
 		BCEF94061D62AB3800EF44BF /* IncPLoading.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IncPLoading.storyboard; path = Storyboards/View/IncPLoading.storyboard; sourceTree = "<group>"; };
@@ -303,6 +307,7 @@
 		BC058BA31D5C6D7A00379A5C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BC06A1181D6D82B6003FC42C /* Bean */,
 				BC058BAA1D5C6FB400379A5C /* Controller */,
 			);
 			name = Classes;
@@ -384,6 +389,23 @@
 			children = (
 			);
 			name = Navagation;
+			sourceTree = "<group>";
+		};
+		BC06A1181D6D82B6003FC42C /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				BC06A12D1D6D82DA003FC42C /* Data */,
+			);
+			name = Bean;
+			sourceTree = "<group>";
+		};
+		BC06A12D1D6D82DA003FC42C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC06A12E1D6D8396003FC42C /* IncPCalEventData.swift */,
+				BC06A1301D6D9879003FC42C /* IncPEventCategory.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		BCFC54981D66ED620004E60F /* Support */ = {
@@ -703,7 +725,9 @@
 				BC66DC861D6AE37E0004A1FF /* IncPCalendarController.swift in Sources */,
 				BC058A881D5C18F000379A5C /* AppDelegate.swift in Sources */,
 				BC058BBE1D5C7F5E00379A5C /* IncPMainTabbar.swift in Sources */,
+				BC06A1311D6D9879003FC42C /* IncPEventCategory.swift in Sources */,
 				BC058BB41D5C77FD00379A5C /* IncPLoadingController.swift in Sources */,
+				BC06A12F1D6D8396003FC42C /* IncPCalEventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
