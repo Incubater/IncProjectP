@@ -13,6 +13,13 @@ class IncPLoadingController: IncPBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var aa = IncPEventCategory.EventCategory.Game.WoW
+        switch aa {
+        case IncPEventCategory.EventCategory.Game.WoW:
+            code
+        default:
+            <#code#>
+        }
         CheckUpdate()
         JKLog.e("qwer")
         JKThread().Start({NSThread.sleepForTimeInterval(1.0)},onMain: {self.GoMain()})
